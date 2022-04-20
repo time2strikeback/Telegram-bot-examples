@@ -1,1 +1,1 @@
-python3 pyro_auto_approval.py
+worker:python3 pyro_auto_approval.py

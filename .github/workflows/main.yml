@@ -1,0 +1,17 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
+        with:
+          heroku_api_key: "8f087329-b28c-4c41-a446-ede17301f47f"
+          heroku_app_name: "acceptbotter" #Must be unique in Heroku
+          heroku_email: "edgarjj777@gmail.com"

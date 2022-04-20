@@ -5,8 +5,8 @@ from pyrogram.utils import get_channel_id
 
 app = Client(
     "hmmm",
-    api_id= "987108",
-    api_hash="5371695457:AAGcfz2e1WQ4iuM8pcWnoq1sfzGQPzt10Mw",
+    api_id= "328552",
+    api_hash="dc4d27f7a17adbac9e9110f2edace5f3",
     bot_token="5371695457:AAGcfz2e1WQ4iuM8pcWnoq1sfzGQPzt10Mw"
 )
 
